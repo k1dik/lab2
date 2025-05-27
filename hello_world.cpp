@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 // Основная функция
 int main(){
 	std::string name; // имя пользователя
