@@ -1,11 +1,11 @@
 #include <iostream>
 
-
+// Основная функция
 int main(){
-	string name;
-	std::cout << "Enter your name: ";
-	std::cin >> name;
-	std::cout << "Hello world from @" << name << std::endl;
+	std::string name; // имя пользователя
+	std::cout << "Enter your name: "; // запрос имени
+	std::cin >> name; // чтение имени
+	std::cout << "Hello world from @" << name << std::endl; // вывод припетсвия
 	return 0;
 }
 
